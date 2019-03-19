@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+
+ "compilerOptions": {
+    "outDir": "./generat_ouput",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowJs": true,  
+    "allowSyntheticDefaultImports": true,    
+    "types":["jasmine"],
+    "target": "es6",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es6",
+      "dom"
+    ]
+}
+}
