@@ -1,4 +1,4 @@
-import { PageHelper } from "../Helper_Page/lazy/lazy-helper-fun";
+Default ESSimport { PageHelper } from "../Helper_Page/lazy/lazy-helper-fun";
 import { PageLocator } from "../Helper_Page/login/login-helper-locate";
 import { LoginHelper } from "../Helper_Page/login/login-helper";
 import { browser } from "protractor";
