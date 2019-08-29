@@ -1,6 +1,6 @@
 import { ElementFinder, browser } from "protractor";
 
-export class LazyHelper{
+export class PageHelper{
     static loginUser(){
         browser.get('https://www.irctc.co.in/nget/train-search')
     }
@@ -8,7 +8,7 @@ export class LazyHelper{
         return locatorName.click();
     }
     static sendKeys(locatorName : ElementFinder, strName : string){    
-                LazyHelper.clearText(locatorName);
+                this.clearText(locatorName);
         return  locatorName.sendKeys(strName)
     }
     static clearText(locatorName : ElementFinder){
