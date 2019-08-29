@@ -7,7 +7,7 @@ import { browser } from "protractor";
 export class LoginHelper{
 
     static async loginInto(){
-        await PageHelper.navigateURL();
+        await PageHelper.loginUser();
         PageLocator.optionalDrop.isDisplayed().then(async bool => {
             console.log('=============================='+bool+'=======================================')
             if(bool==true){
